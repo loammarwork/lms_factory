@@ -1,0 +1,18 @@
+.table > tbody > tr > td {
+  vertical-align: middle;
+}
+
+/* Table for performance analysis page*/
+.table-bordered > thead > tr > th {
+  border-bottom-width: 0px !important;
+}
+
+.bg-dark-blue {
+  background-color: #00008b;
+}
+.btn.focus,
+.btn:focus,
+.btn:hover {
+  color: #fff;
+  text-decoration: none;
+}

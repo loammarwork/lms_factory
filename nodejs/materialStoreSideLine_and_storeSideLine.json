@@ -1,0 +1,45 @@
+
+{
+  "material_store_side_line_setup": [
+    {
+      "part_no": "P-1",
+      "part_name": "A11",
+      "customer_name": "TOYO",
+      "agv_order_per_day": 65,
+      "stock_kanban_min": 3,
+      "stock_kanban_max": 10,
+      "kanban_actual": 10,
+      "unit_kanban": 10,
+      "amount": 40, 
+      "stock_lead_time": 1.54,
+      "__comment1__": "amount is kanban_actual * unit_kanban",
+      "__comment2__": "if kanban_actual <  stock_kanban_min then make red color",
+      "__comment3__":"if this is for storesideline -> if press button refresh in table echutter send request along to stock_kanban_max - kanban_actual = amount of request to echutter table",
+      "__comment4__":"if this is for storematerial -> make api follow by stock_kanban_max - kanban_actual and then send api out for update between during time like {part_no:[{P-1:10},{P-2:20}]}"
+    },
+    {
+      "part_no": "P-2",
+      "part_name": "A12",
+      "customer_name": "TOYO",
+      "agv_order_per_day": 40,
+      "stock_kanban_min": 3,
+      "stock_kanban_max": 10,
+      "kanban_actual": 10,
+      "unit_kanban": 10,
+      "amount": 20,
+      "stock_lead_time": 2.50
+    },
+    {
+      "part_no": "P-3",
+      "part_name": "A13",
+      "customer_name": "TOYO",
+      "agv_order_per_day": 75,
+      "stock_kanban_min": 3,
+      "stock_kanban_max": 10,
+      "kanban_actual": 10,
+      "unit_kanban": 10,
+      "amount": 30,
+      "stock_lead_time": 1.33
+    }
+  ]
+}

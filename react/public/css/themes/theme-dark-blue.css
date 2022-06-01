@@ -1,0 +1,46 @@
+.theme-dark-blue .navbar {
+    background-color: darkblue; }
+  
+  .theme-dark-blue .navbar-brand {
+    color: #fff; }
+    .theme-dark-blue .navbar-brand:hover {
+      color: #fff; }
+    .theme-dark-blue .navbar-brand:active {
+      color: #fff; }
+    .theme-dark-blue .navbar-brand:focus {
+      color: #fff; }
+  
+  .theme-dark-blue .nav > li > a {
+    color: #fff; }
+    .theme-dark-blue .nav > li > a:hover {
+      background-color: transparent; }
+    .theme-dark-blue .nav > li > a:focus {
+      background-color: transparent; }
+  
+  .theme-dark-blue .nav .open > a {
+    background-color: transparent; }
+    .theme-dark-blue .nav .open > a:hover {
+      background-color: transparent; }
+    .theme-dark-blue .nav .open > a:focus {
+      background-color: transparent; }
+  
+  .theme-dark-blue .bars {
+    color: #fff; }
+  
+  .theme-dark-blue .sidebar .menu .list li.active {
+    background-color: transparent; }
+    .theme-dark-blue .sidebar .menu .list li.active > :first-child i, .theme-blue .sidebar .menu .list li.active > :first-child span {
+      color: darkblue; }
+  
+  .theme-dark-blue .sidebar .menu .list .toggled {
+    background-color: transparent; }
+  
+  .theme-dark-blue .sidebar .menu .list .ml-menu {
+    background-color: transparent; }
+  
+  .theme-blue .sidebar .legal {
+    background-color: #fff; }
+    .theme-dark-blue .sidebar .legal .copyright a {
+      color: darkblue !important; }
+  
+  

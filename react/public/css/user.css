@@ -1,0 +1,23 @@
+
+
+   
+table.table td a.add {
+    color: #27C46B;
+    margin-right: 5px;
+}
+table.table td a.edit {
+    color: #FFC107;
+    margin-right: 5px;
+}
+table.table td a.delete {
+    color: #E34724;
+}
+
+   
+
+table.table .form-control.error {
+    border-color: #f50000;
+}
+table.table td .add {
+    display: none;
+}

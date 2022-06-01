@@ -1,0 +1,88 @@
+{
+    "date": "2022-01-05",
+    "line_name": "Knob Assembly",
+    "operator_name": "John Doe",
+    "order_per_day": 0,
+    "takt_time_line": 0,
+    "std_cycle_time": 0,
+    "normal_working_time": 0,
+    "over_time": 0,
+    "first_shift": [
+        {
+            "time": "08:00-09:00",
+            "plan_per_hours": 2
+        },  {
+            "time": "09:00-10:00",
+            "plan_per_hours": 2
+        },  {
+            "time": "10:00-11:00",
+            "plan_per_hours": 2
+        },  {
+            "time": "11:00-12:00",
+            "plan_per_hours": 2
+        },  {
+            "time": "12:00-13:00",
+            "plan_per_hours": 0
+        },  {
+            "time": "13:00-14:00",
+            "plan_per_hours": 2
+        },  {
+            "time": "14:00-15:00",
+            "plan_per_hours": 2
+        },  {
+            "time": "15:00-16:00",
+            "plan_per_hours": 2
+        }, {
+            "time": "16:00-17:00",
+            "plan_per_hours": 2
+        }, {
+            "time": "17:00-18:00",
+            "plan_per_hours": 0
+        }, {
+            "time": "18:00-19:00",
+            "plan_per_hours": 2
+        },{
+            "time": "19:00-20:00",
+            "plan_per_hours": 2
+        }
+    ],
+    "second_shift": [
+      {
+            "time": "20:00-21:00",
+            "plan_per_hours": 2
+        },  {
+            "time": "21:00-22:00",
+            "plan_per_hours": 2
+        },  {
+            "time": "22:00-23:00",
+            "plan_per_hours": 2
+        },  {
+            "time": "23:00-00:00",
+            "plan_per_hours": 2
+        },  {
+            "time": "00:00-01:00",
+            "plan_per_hours": 0
+        },  {
+            "time": "01:00-02:00",
+            "plan_per_hours": 2
+        },  {
+            "time": "02:00-03:00",
+            "plan_per_hours": 2
+        },  {
+            "time": "03:00-04:00",
+            "plan_per_hours": 2
+        }, {
+            "time": "04:00-05:00",
+            "plan_per_hours": 2
+        }, {
+            "time": "05:00-06:00",
+            "plan_per_hours": 0
+        }, {
+            "time": "06:00-07:00",
+            "plan_per_hours": 2
+        },{
+            "time": "07:00-08:00",
+            "plan_per_hours": 2
+        }
+    ]
+}

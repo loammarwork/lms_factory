@@ -1,0 +1,111 @@
+
+.divCenter{
+    margin-left: 100px;
+    
+  }
+.divBottom{
+  bottom: 50px;
+  position: fixed;
+}
+/* .horizontal-nav{
+  color: blanchedalmond;
+  background: #1561ad;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}*/
+.mt-20{
+  margin-top: 20px;
+}
+.mt-70{
+  margin-top: 70px;
+}
+.pd-150{
+    padding-right: 150px;
+}
+.mr-5{
+    margin-right: 3px;
+}
+.hidden{
+  display: none;
+}
+.recForm{
+  
+  /*padding-bottom: 400px;*/
+  background-color: rgb(98, 201, 241);
+  border-style: solid;
+  border-width: 2px;
+  
+}
+.imgForm{
+  width: 50%;
+  vertical-align: center;
+  margin-top: 100px;
+}
+.tagKey{
+  border-style: solid;
+  border-width: 1px;
+}
+.pdCode{
+  border-bottom: 2px solid;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+}
+.prName{
+  border-bottom: 2px solid;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+}
+.pdName{
+  border-bottom: 2px solid;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+}
+.pdCount{
+  border-bottom: 2px solid;
+  font-size: 4em;
+  font-weight: bold;
+  text-align: center;
+}
+.pdMin{
+  border-bottom: 2px solid;
+  border-right: 2px solid;
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+}
+.pdMax{
+  border-bottom: 2px solid;
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+}
+.pdTag{
+  font-size: 1vw;
+}
+
+.lessThan{
+  background-color: crimson;
+}
+.moreThan{
+  background-color: limegreen;
+}
+.rightPanel{
+  width: 400px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  box-shadow: 3px 3px 3px 3px #aaaaaa;
+  margin-top: 68px;
+  overflow-y: auto;
+  background: #fff;
+}
+@media (max-width: 767px) {
+  .rightPanel{
+    width: 0%;
+  }
+}
